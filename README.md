@@ -14,7 +14,7 @@ One way of doing this is navigating to this repo and calling:
 
 BASH:
 ```
-alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.zshrc
+alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.bashrc
 ```
 
 ZSH:
