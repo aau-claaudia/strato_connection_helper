@@ -10,9 +10,16 @@ Easyconnect only asks you for the two last bits. That's a ~98 % improvement.
 
 Add this to your `.bashrc`/`.zshrc` to ensure that you can run the commands.
 
-One way of doing this is navigating to this repo and calling: 
+One way of doing this is navigating to this repo and calling:
+
+BASH:
 ```
-alias strato="bash $(pwd)/strato_easyconnetch.sh"
+alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.zshrc
+```
+
+ZSH:
+```
+alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.zshrc
 ```
 
 ### Configuration
