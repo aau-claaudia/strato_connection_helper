@@ -2,6 +2,7 @@
 
 # --
 source config
+
 # --
 if [ ! -d "$HOME/.ssh/controlmasters/" ]; then
   mkdir -p "$HOME/.ssh/controlmasters/" 
