@@ -24,8 +24,7 @@ alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.zshrc
 
 ### Configuration
 
-EasyConnect has two variables that you must change once and for all: `AAU_UPN` and `IDENTITY_FILE`. 
-Look inside `strato_easyconnect.sh` for more information. Feel free to change the value given to `ControlPersist`.
+EasyConnect relies on two variables in the file `config` that you must change. Look inside the file for more information.
 
 ### Bugs
 In case you lose your internet connection, the socket file can not be reused and you will have to delete the file manually. I'm working on a solution for doing this automatically.

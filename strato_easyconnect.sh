@@ -8,7 +8,7 @@ if [ ! -d "$HOME/.ssh/controlmasters/" ]; then
   mkdir -p "$HOME/.ssh/controlmasters/" 
 fi
 
-CONTROLMASTER="-o ControlMaster=auto  -o ControlPath='~/.ssh/controlmasters/%r@%h' -o ControlPersist=600"
+CONTROLMASTER="-o ControlMaster=auto  -o ControlPath='~/.ssh/controlmasters/%r@%h' -o ControlPersist=900"
 
 # -- 
 if ! ping -c 1 ai-fe02.srv.aau.dk &> /dev/null; then
