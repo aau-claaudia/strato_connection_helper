@@ -1,4 +1,4 @@
-# Easyconnect for Strato
+# EasyConnect for Strato
 
 EasyConnect solves two problems:
 
