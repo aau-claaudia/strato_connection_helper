@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --
-AAU_UPN="x00xx@domain.aau.dk"
+AAU_UPN="x00xx@domain.aau.dk" # Replace with your AAU UPN
 IDENTITY_FILE="$HOME/.ssh/my_key" # Replace with path of your SSH-key
 
 # --
