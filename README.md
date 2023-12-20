@@ -14,12 +14,12 @@ One way of doing this is navigating to this repo and calling:
 
 BASH:
 ```
-alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.bashrc
+alias strato="bash $(pwd)/strato_easyconnect.sh" >> $HOME/.bashrc
 ```
 
 ZSH:
 ```
-alias strato="bash $(pwd)/strato_easyconnetch.sh" >> $HOME/.zshrc
+echo alias strato="bash $(pwd)/strato_easyconnect.sh" >> $HOME/.zshrc
 ```
 
 ### Configuration
