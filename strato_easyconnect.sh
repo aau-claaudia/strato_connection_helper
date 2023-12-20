@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # --
-AAU_UPN="x00xx@domain.aau.dk" # Replace this with your actual UPN
-IDENTITY_FILE="$HOME/.ssh/my_key" # Replace with path of your SSH-key
-
+source config
 # --
 if [ ! -d "$HOME/.ssh/controlmasters/" ]; then
   mkdir -p "$HOME/.ssh/controlmasters/" 
