@@ -6,7 +6,7 @@ The command for connecting to them is usually ~98 % the same (only the last two 
 
 Easyconnect only asks you for the two last bits. That's a ~98 % improvement.
 
-# Install
+### Install
 
 Add this to your `.bashrc`/`.zshrc` to ensure that you can run the commands.
 
@@ -15,7 +15,7 @@ One way of doing this is navigating to this repo and calling:
 alias strato="bash $(pwd)/strato_easyconnetch.sh"
 ```
 
-## Configuration
+### Configuration
 
 EasyConnect has two variables that you must change once and for all: `JUMPHOST` and `IDENTITY_FILE'. 
 Look inside `strato_easyconnect.sh` for more information.
