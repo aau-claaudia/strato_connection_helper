@@ -1,4 +1,4 @@
 #!/bin/bash
 
-AAU_UPN="cc11gz@its.aau.dk" # Replace this with your actual UPN
-IDENTITY_FILE="$HOME/.ssh/svenbuntu_ssh" # Replace with path of your SSH-key
+AAU_UPN="xx00yy@domain.aau.dk" # Replace this with your actual UPN
+IDENTITY_FILE="$HOME/.ssh/my_key" # Replace with path of your SSH-key
