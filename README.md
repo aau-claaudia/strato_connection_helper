@@ -2,11 +2,9 @@
 
 EasyConnect solves two problems:
 
-1:
- * Strato instances are often launched for short lived purposes. The command for connecting to them is usually ~98 % the same (only the last two bits in the IP change). Typing that takes a long time. EasyConnect only asks you for the two last bits.
+1. Strato instances are often launched for short lived purposes. The command for connecting to them is usually ~98 % the same (only the last two bits in the IP change). Typing that takes a long time. EasyConnect only asks you for the two last bits.
 
-2:
- * Strato instances are most often launched on the "Campus Networks", and are thus only reachable if you are on AAU network. If you are not already on AAU network, Easyconnect will find your instance through the SSH-Gateway. EasyConnect can also reuse your previous connections, reducing the need for authentication and allowing for faster logins.
+2. Strato instances are most often launched on the "Campus Networks", and are thus only reachable if you are on AAU network. If you are not already on AAU network, Easyconnect will find your instance through the SSH-Gateway. EasyConnect can also reuse your previous connections, reducing the need for authentication and allowing for faster logins.
 
 ### Install
 
